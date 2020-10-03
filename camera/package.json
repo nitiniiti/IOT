@@ -1,0 +1,21 @@
+{
+    "name": "socketcam",
+    "version": "0.0.1",
+    "description": "Push Rasberry Pi camera image to cients using Socket.IO",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Werner Vesteraas",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vesteraas/socketcam"
+    },
+    "dependencies": {
+        "express": "^4.16.3",
+        "socket.io": "^2.1.1",
+        "pi-camera-connect": "latest"
+    }
+}
